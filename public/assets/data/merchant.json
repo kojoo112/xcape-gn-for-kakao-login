@@ -1,0 +1,19 @@
+{
+  "id": 2,
+  "name": "건대점",
+  "nameForKakao": "[ 엑스케이프 ]",
+  "address": "서울 광진구 동일로 112, 금아빌딩, 엑스케이프 건대점",
+  "telNumber": "02-463-9366",
+  "businessHour": "10:00~24:00",
+  "parkingYn": false,
+  "ceoName": "조민후",
+  "businessRegistrationNumber": "851-70-00056",
+  "email": "xcaperoom@naver.com",
+  "code": "xc",
+  "order": 2,
+  "brandInfoNotionId": "ab78d1212a5346ee99f5bdf0a752a662",
+  "usingInfoNotionId": "8b153b830e954615984653f62990f96b",
+  "addressInfoNotionId": "1-11727ed716548028bf81c963d006f23e?pvs=4",
+  "useYn": true,
+  "displayName": "GDXC"
+}

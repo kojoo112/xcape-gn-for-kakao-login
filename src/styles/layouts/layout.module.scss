@@ -1,0 +1,43 @@
+:root {
+  background: var(--black);
+  color: var(--gray-1);
+}
+
+.section {
+  min-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 1px solid rgba(255, 255, 255, .15);
+  border-top: 0;
+  border-bottom: 0;
+
+  @media (min-width: 600px) {
+    width: 550px;
+  }
+
+  .footer {
+    flex: 1;
+    align-content: end;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: var(--gray-2);
+
+    .container {
+      padding: .5rem 0;
+      border-top: 1px solid var(--gray-2);
+
+      .link {
+        font-size: 1.2rem;
+        color: var(--gray-1);
+        text-decoration: underline;
+        margin-top: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

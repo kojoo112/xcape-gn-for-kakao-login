@@ -1,0 +1,41 @@
+// Brand Colors
+$color-neon: #BFFF00;
+$color-black: #2A2B2D;
+
+// Grayscale
+$gray-1: #EDEDEF;
+$gray-2: rgba(237, 237, 239, 0.5); // 50%
+$gray-3: rgba(237, 237, 239, 0.2); // 20%
+$gray-4: rgba(237, 237, 239, 0.12); // 12%
+$black: #0C0C0C;
+
+// Theme Colors
+$theme-thriller: #A82D2D; // 스릴러
+$theme-mystery: #5E3EDA;
+$theme-detective: #C49902; // 추리
+$theme-drama: #029EC0; // 추리
+$theme-fantasy: #3A8500;
+$theme-suspense: #D8D24B;
+$theme-adventure: #237CE4;
+
+:root {
+  // Brand Colors
+  --color-neon: #{$color-neon};
+  --color-black: #{$color-black};
+
+  // Grayscale
+  --gray-1: #{$gray-1};
+  --gray-2: #{$gray-2};
+  --gray-3: #{$gray-3};
+  --gray-4: #{$gray-4};
+  --black: #{$black};
+
+  // Theme Colors
+  --theme-thriller: #{$theme-thriller};
+  --theme-mystery: #{$theme-mystery};
+  --theme-detective: #{$theme-detective};
+  --theme-drama: #{$theme-drama};
+  --theme-fantasy: #{$theme-fantasy};
+  --theme-suspense: #{$theme-suspense};
+  --theme-adventure: #{$theme-adventure};
+}

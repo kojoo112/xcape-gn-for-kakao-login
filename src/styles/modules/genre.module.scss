@@ -1,0 +1,11 @@
+.genre {
+  padding: .5rem;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid var(--gray-1);
+  border-bottom: 1px solid var(--gray-1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
